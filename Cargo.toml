@@ -31,6 +31,7 @@ panic-itm = "0.4.1"
 cortex-m-log = { version = "0.6.1", features = ["itm", "log-integration"] }
 
 [features]
+stm32h743v = ["stm32h7xx-hal/stm32h743v"]
 default = ["phy_lan8742a", "phy0"]
 phy_ksz8081r = []
 phy_lan8742a = []
